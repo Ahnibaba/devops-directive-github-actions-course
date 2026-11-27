@@ -14,7 +14,7 @@ jobs:
 
   call-reuseable-workflow-sha:
     name: Invoke reuseable workflow with repo + commit hash
-    uses: Ahnibaba/devops-directive-github-actions-course/.github/workflows/06-authoring-actions--03-reuseable-workflows-caller.yaml@8932bf81ee1bf59f3c54d9b15a7efaf0cd6f7cd2
+    uses: Ahnibaba/devops-directive-github-actions-course/.github/workflows/06-authoring-actions--02-reuseable-workflows-source.yaml@4e2afa4a1a956ab7dc57af72ef2d06c6e7063250
     with:
       foo: bar
       environment: production
